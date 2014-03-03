@@ -1,0 +1,10 @@
+## SECTION=python
+
+config PYTHON_LIBNL_ROUTING
+	tristate
+	select HOST_CYTHON
+	select PYTHON
+	select LIBNL3
+	prompt "python-libnl-routing"
+	help
+	  FIXME
